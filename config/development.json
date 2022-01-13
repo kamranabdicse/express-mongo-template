@@ -1,0 +1,8 @@
+{
+    "APP_TITLE":"Restaurant",
+    "APP_URI":"http://localhost:9090",
+    "PORT":9090,
+    "MONGO_URI":"mongodb://localhost:27017/Restaurant",
+    "JWT_SECRET": "1cab5810d26f3bca0635cbc0b247b638e958ea1e787e8a0de376bd6ac28cd37b",
+    "AES_KEY":"3e9ee27e30a9466094c1dc44d8843a45"
+}

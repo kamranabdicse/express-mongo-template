@@ -1,0 +1,45 @@
+{
+  "name": "restaurant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/server.js",
+  "scripts": {
+    "test": "ts-node-dev --respawn --pretty --transpile-only src/server.ts",
+    "start": "tsc -p . && node dist/server.js",
+    "build": "tsc -p ."
+  },
+  "author": "kamran abdi",
+  "license": "ISC",
+  "dependencies": {
+    "@types/bluebird": "^3.5.36",
+    "@types/config": "0.0.40",
+    "@types/cors": "^2.8.12",
+    "@types/crypto-js": "^4.0.2",
+    "@types/express-winston": "^4.0.0",
+    "@types/jsonwebtoken": "^8.5.6",
+    "@types/mongoose": "^5.11.97",
+    "@types/morgan": "^1.9.3",
+    "@types/winston": "^2.4.4",
+    "ajv": "^8.8.1",
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.19.0",
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "csvtojson": "^2.0.10",
+    "express": "^4.17.1",
+    "express-winston": "^4.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.12",
+    "morgan": "^1.10.0",
+    "typescript": "^4.4.4",
+    "winston": "^3.3.3",
+    "winston-mongodb": "^5.0.7"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^16.11.6",
+    "ts-node-dev": "^1.1.8",
+    "tslint": "^6.1.3"
+  }
+}
